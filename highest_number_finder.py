@@ -38,5 +38,7 @@ num4 = int(input("Please input the 4th number: "))
 num5 = int(input("Please input the 5th number: ")) 
 
 # Store the value returned in the variable "result"
+result = highest_number(num1, num2, num3, num4, num5)
 
 # Print the result
+print("The highest number is:", result)
