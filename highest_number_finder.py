@@ -30,7 +30,12 @@ def highest_number(num1, num2, num3, num4, num5):
     return highest  # Return the highest number
 
 
-# Ask the user to input five number
+# Ask the user to input five numbers
+num1 = int(input("Please input the 1st number: ")) 
+num2 = int(input("Please input the 2nd number: "))  
+num3 = int(input("Please input the 3rd number: "))   
+num4 = int(input("Please input the 4th number: ")) 
+num5 = int(input("Please input the 5th number: ")) 
 
 # Store the value returned in the variable "result"
 
